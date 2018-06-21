@@ -1,0 +1,201 @@
+body {
+    background-color: rgb(242,225,199);
+    margin: 0 auto;
+}
+
+.nav-bar {
+    background-color: rgb(36,50,61);
+    width: 100%;
+    height: 80px;
+}
+
+ul {
+    text-align: right;
+}
+
+.nav-item {
+    display: inline-block;
+    margin-right: 100px;
+    color: white;
+    position: relative;
+    top: 30px;
+    
+}
+
+.banner {
+    background-image: url('../img/kings-landing.jpg');
+    height: 350px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    
+}
+
+.banner-text-background {
+    width: 300px;
+    height: 180px;
+    background-color: red;
+    margin-top: 200px;
+}
+
+.body {
+    width: 100%;
+    
+}
+
+.body-text {
+    margin-top: 0px;
+    margin-left: 50px;
+    width: 600px;
+    height: 345px;
+    border: 2px solid blue;
+    float: left;
+}
+
+.iron-throne-icon {
+    height: 88px;
+    float: left;
+}
+
+.nav-item a:hover {
+    color: rgb(134,140,138);
+}
+
+.nav-item a {
+    color: rgb(138,174,190);
+}
+
+.targ-banner {
+    float: right;
+    height: 600px;
+    margin-right: 7%;
+    margin-top: -18px;
+    box-shadow: 15px 15px 15px grey;
+    
+}
+
+.column-one {
+    height: 600px;
+    width: 33%;
+    /*border: 2px dashed blue;*/
+    float: left;
+}
+
+.column-two {
+    height: 600px;
+    width: 33%;
+    /*border: 2px dashed green;*/
+    float: left;
+}
+
+.column-three {
+    height: 600px;
+    width: 33%;
+    /*border: 2px dashed red;*/
+    float: left;
+}
+
+.stark-banner {
+    height: 600px;
+    margin-left: 7%;
+    margin-top: -18px;
+    float: left;
+    box-shadow: 15px 15px 15px grey;
+}
+
+.main-p {
+    width: 50%;
+    float: left;
+    margin-top: 50px;
+    margin-left: 11%;
+    font-family: 'Lobster', cursive;
+    font-size: 30px;
+    text-align: center;
+}
+
+.footer {
+    /*border: 1px dashed blue;*/
+    width: 100%;
+    height: 150px;
+    clear: both;
+    /*background-color: rgb(138,174,190);*/
+}
+
+.footer-col {
+    width: 32%;
+    /*border: 1px dashed black;*/
+    height: 80px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+
+.fab {
+    color: darkblue;
+    margin-left: 15px;
+    /*display: inline;*/
+    /*height: 50px;*/
+}
+
+.footer-col-soc {
+    margin-left: 30%;
+    margin-top: 30px;
+}
+
+.twit a:hover {
+    color: red;
+}
+
+.copyright {
+    text-align: center;
+    margin-top: 11%;
+    color: rgb(36,50,61);
+    font-size: 18px;
+}
+
+.targ-sigil {
+    width: 70%;
+    display: center;
+    margin-top: 5px;
+    
+}
+
+.lann-sigil {
+    width: 65%;
+    margin-top: 5px;
+    margin-left: 22%;
+}
+
+.drag-vid {
+    width: 95%;
+    margin-top: 10%;
+}
+
+.header {
+    font-family: 'Lobster', cursive;
+    text-align: center;
+    text-shadow: 3px 3px 3px grey;
+    font-size: 40px;
+}
+
+.columns {
+   width: 100%;
+}
+
+/*===================CONTACT STYLES==================*/
+
+.contact-form {
+    margin: 0 auto;
+    width: 600px;
+    float: left;
+    margin-top: 20px;
+}
+
+.map {
+    border: solid darkblue;
+    width: 400px;
+    height: 300px;
+    float: left;
+    margin-top: 20px;
+}
