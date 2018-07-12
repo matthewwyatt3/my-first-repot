@@ -18,7 +18,7 @@ ul {
     margin-right: 100px;
     color: white;
     position: relative;
-    top: 30px;
+    top: 25px;
     
 }
 
@@ -58,12 +58,22 @@ ul {
     float: left;
 }
 
+.nav-title {
+    text-align: center;
+    font-size: 160%;
+    margin-right: 15.5%;
+    color: rgb(204,23,0);
+}
+
 .nav-item a:hover {
     color: rgb(134,140,138);
+    
 }
 
 .nav-item a {
     color: rgb(138,174,190);
+    font-size: 120%;
+    text-decoration: none;
 }
 
 .targ-banner {
@@ -76,10 +86,14 @@ ul {
 }
 
 .column-one {
-    height: 600px;
+    height: 1300px;
     width: 33%;
     /*border: 2px dashed blue;*/
     float: left;
+    text-align: center;
+    font-family: 'Lobster', cursive;
+    font-size: 26px;
+    
 }
 
 .column-two {
@@ -87,13 +101,17 @@ ul {
     width: 33%;
     /*border: 2px dashed green;*/
     float: left;
+    text-align: center;
 }
 
 .column-three {
-    height: 600px;
+    height: 1300px;
     width: 33%;
     /*border: 2px dashed red;*/
     float: left;
+    text-align: center;
+    font-family: 'Lobster', cursive;
+    font-size: 26px;
 }
 
 .stark-banner {
@@ -105,7 +123,7 @@ ul {
 }
 
 .main-p {
-    width: 50%;
+    width: 48%;
     float: left;
     margin-top: 50px;
     margin-left: 11%;
@@ -136,15 +154,15 @@ ul {
     margin-left: 15px;
     /*display: inline;*/
     /*height: 50px;*/
+    font-size: 150%;
+}
+.fab:hover {
+    color: red;
 }
 
 .footer-col-soc {
-    margin-left: 30%;
+    margin-left: 35%;
     margin-top: 30px;
-}
-
-.twit a:hover {
-    color: red;
 }
 
 .copyright {
@@ -164,12 +182,14 @@ ul {
 .lann-sigil {
     width: 65%;
     margin-top: 5px;
-    margin-left: 22%;
+    /*margin-left: 22%;*/
+    /*display: center;*/
+    text-align: center;
 }
 
 .drag-vid {
     width: 95%;
-    margin-top: 10%;
+    margin-top: 10.5%;
 }
 
 .header {
@@ -181,6 +201,14 @@ ul {
 
 .columns {
    width: 100%;
+}
+
+.audio-one {
+    background-color: rgb(196,15,0);
+}
+
+.audio-two {
+    background-color: maroon;
 }
 
 /*===================CONTACT STYLES==================*/
@@ -196,6 +224,20 @@ ul {
     border: solid darkblue;
     width: 400px;
     height: 300px;
-    float: left;
-    margin-top: 20px;
+    float: right;
+    margin-top: 8%;
+    margin-right: 10%;
+}
+
+.raven {
+    margin-top: 6%;
+    margin-left: 5%;
+    
+}
+
+
+.center-img {
+    text-align: center;
+    float: right;
+    margin-right: -46%;
 }
